@@ -25,7 +25,5 @@ attr_accessor :name, :roster, :studentname, :grade
   def sort
     # @roster.map do |key, value|
        @roster.each_value { |v| v.sort! }
-
-
-end
+  end
 end
